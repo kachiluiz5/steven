@@ -11123,7 +11123,7 @@ figcaption {
   grid-row-gap: 1.5rem;
   color: var(--neutral--pure-white);
   background-image: linear-gradient(110deg, #000 27%, transparent),
-    url(https://assets-global.website-files.com/62666115cfab458794bd512f/6356a5086d4e6d2455087bb3_academy-short-bg-1.webp);
+    url("../../../img/short-bg.webp");
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   flex-direction: column;
@@ -11131,6 +11131,10 @@ figcaption {
   align-items: flex-start;
   padding: 2.5rem 1.5rem 1.5rem;
   display: flex;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  color: #fff;
+
 }
 .blog-academy_video-cover {
   min-height: 15rem;
