@@ -4159,7 +4159,25 @@ figcaption {
   display: flex;
   position: relative;
   overflow: hidden;
+  background-image: linear-gradient(180deg, #190927, rgba(25, 9, 39, 0)),
+      url("../../../img/explore.webp");
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    box-shadow: 0 30px 60px -20px #09000e;
+    color: #fff;
+    text-align: center;
 }
+
+.academy_bet_card._2 {
+  background-image: linear-gradient(180deg, #190927, rgba(25, 9, 39, 0)),
+    url("../../../img/explore1.webp");
+}
+
+.academy_bet_card._3 {
+  background-image: linear-gradient(180deg, #190927, rgba(25, 9, 39, 0)),
+    url("../../../img/explore2.webp");
+}
+
 .button-secondary--gradient {
   color: var(--neutral--abyss-black);
   text-align: center;
